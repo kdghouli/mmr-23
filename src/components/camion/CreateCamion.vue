@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3 class="my-2">Creation d'un camion test</h3>
+    <h3 class="my-2">Creation d'un camion test 22</h3>
 
     <form @submit.prevent="ajouterEquipe()" class="row g-3 bg-success">
       <div class="col-md-6">
