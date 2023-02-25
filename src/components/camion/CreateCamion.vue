@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3 class="my-2">Creation d'un camion test 22</h3>
+    <h3 class="my-2">Creation d'un camion</h3>
 
     <form @submit.prevent="ajouterEquipe()" class="row g-3 bg-success">
       <div class="col-md-6">
@@ -19,7 +19,7 @@
           <option value="3">ECCBC - CBGN</option>
           <option value="5">ECCBC - COBOMI</option>
           <option value="4">Chaabi LLD</option>
-
+          <option value="8">Aj Manutention</option>
           </select>
       </div>
       <div class="col-6">
@@ -106,7 +106,7 @@ export default {
       this.matricule = "";
       this.marque = "";
       this.agenceId = "";
-      this.intitule = ""; 
+      this.intituleId = ""; 
       this.categorieId = ""; 
       this.equipement = "";
       this.dmc=""
