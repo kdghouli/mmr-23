@@ -11,8 +11,6 @@ import ScooterView from "../components/ScooterView.vue";
 import AgenceView from "../views/AgenceView.vue";
 import SearchView from "../views/SearchView.vue";
 
-
-
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -25,8 +23,6 @@ const router = createRouter({
       path: "/acc",
       name: "accidents",
       component: Accidents,
-      
-
     },
     {
       path: "/edit/camion/:id",
@@ -43,21 +39,23 @@ const router = createRouter({
       path: "/test",
       name: "test",
       component: Test,
-    }  ,
+    },
     {
       path: "/camion/:id",
       name: "CamionView",
       component: CamionView,
-    }  ,
+    },
     {
       path: "/chariot/:id",
       name: "ChariotView",
       component: ChariotView,
-    },{
+    },
+    {
       path: "/scooter/:id",
       name: "ScooterView",
       component: ScooterView,
-    },{
+    },
+    {
       path: "/voiture/:id",
       name: "VoitureView",
       component: VoitureView,
@@ -71,9 +69,7 @@ const router = createRouter({
       path: "/search",
       name: "SearchView",
       component: SearchView,
-      props:true
-    }
-
+    },
   ],
 });
 

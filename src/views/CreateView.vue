@@ -28,19 +28,20 @@
   </div>
 </template>
 
-<script>
+<script >
+
 import CreateCamion from "../components/camion/CreateCamion.vue";
 import CreateVoiture from "../components/voiture/CreateVoiture.vue";
 
 export default {
   components: { CreateVoiture, CreateCamion },
+
   data() {
     return {
       selecCate: 0,
-      selecProp: 0,
-    };
-  },
-};
+    }
+  }
+}
 </script>
 
-<style></style>
+

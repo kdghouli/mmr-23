@@ -1,15 +1,11 @@
-<template >
-    <div>
-        
-    </div>
+<template lang="">
+    
 </template>
-
 <script>
 export default {
     
 }
-
 </script>
-<style>
+<style lang="">
     
 </style>

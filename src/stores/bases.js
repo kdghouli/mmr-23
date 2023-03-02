@@ -91,8 +91,8 @@ export const useBasesStore = defineStore("bases", {
 
           try {
             const docRef = await addDoc(collection(dbo, "vhls"), {
-              matricule: "khalid",
-              marque: "dghouli"
+              matricule: "",
+              marque: ""
             });
             console.log("Document written with ID: ", docRef.id);
           } catch (e) {
