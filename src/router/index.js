@@ -10,6 +10,7 @@ import ChariotView from "../components/ChariotView.vue";
 import ScooterView from "../components/ScooterView.vue";
 import AgenceView from "../views/AgenceView.vue";
 import SearchView from "../views/SearchView.vue";
+import OneVhl from "../views/OneVhl.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -39,6 +40,11 @@ const router = createRouter({
       path: "/test",
       name: "test",
       component: Test,
+    },
+    {
+      path: "/one",
+      name: "oneVhl",
+      component: OneVhl,
     },
     {
       path: "/camion/:id",

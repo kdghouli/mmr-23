@@ -1,44 +1,15 @@
-
-
 <template>
-  <div class="row ">
-  
-
-    <div class="col-md-12 col-lg-11"><Camions /></div>
-    
-    
+  <div class="row">
+    <div class="col-md-12 col-lg-11">
+      <h2>HOME VIEW</h2>
+    </div>
   </div>
-  
 </template>
 
-
-<script >
-import { collection, getDocs,query } from "firebase/firestore"; 
-import dbo from "../firebase/config"
-import Camions from "../components/camion/ListCamions.vue";
-
-
+<script>
 export default {
-  components: { Camions},
-  data(){
-    return {
-      matricule: "",
-    }
+  data() {
+    return {};
   },
-  methods:{
-   async getBase(){
-
-    
-       const querySnapshot = await getDocs(collection(dbo, "vhls"));
-       console.log(querySnapshot)
-      querySnapshot.forEach((doc) => {
-      console.log(`${doc.id} => ${doc.data().matricule}`);
-});
-    }
-  },
-  created(){
-
-    this.getBase()
-  }
 };
 </script>

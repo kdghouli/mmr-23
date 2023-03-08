@@ -5,7 +5,9 @@
   </div>
   <div class="card-body">
     <blockquote class="blockquote mb-0">
-      <p>A well-known quote, contained in a blockquote element.</p>
+      <p>اتقن القواعد كمحترف، حتى تتمكن من كسرها كفنان</p>
+      <p>من الأفضل مجابهة الخطر مرة واحدة بدلا من البقاء دائما في خوف و هلع</p>
+      <p>إني لأمقت الرجل أن أراه فارغا ليس في شي من عمل الدنيا ولا عمل الآخرة</p>
       <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
     </blockquote>
   </div>
